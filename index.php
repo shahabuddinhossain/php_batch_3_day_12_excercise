@@ -27,7 +27,7 @@
                 <div class="col-md-8 mx-auto">
                     <div class="card">
                         <div class="card-header">
-                            My Calculator
+                            My Series Homework
                         </div>
                         <div class="card-body">
                             <form action="action.php" method="POST">
@@ -48,7 +48,7 @@
                                 <div class="form-group row">
                                     <label for="" class="col-form-label col-md-3">Result:</label>
                                     <div class="col-md-9">
-                                        <input type="text" name="" value="" class="form-control"></label>
+                                        <input type="text" name="" value=" <?php echo isset($result)? $result :'' ?> " class="form-control" readonly></label>
                                     </div>
                                 </div>
 
